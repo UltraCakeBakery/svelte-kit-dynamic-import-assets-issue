@@ -19,6 +19,6 @@
 </script>
 
 { #each assets as asset } 
-    { asset.default }
-    <!-- <img src={asset} alt="" /> -->
+    { asset }
+    <img src={asset} alt="" />
 { /each }
